@@ -13,5 +13,6 @@ public class TiposVariaveis {
         //para declarar uma constante em java usa-se a palavra final antes de declarar o tipo:
 
         final double VALOR_DE_PI =3.1415;
+        System.out.println(VALOR_DE_PI);
     }
 }
