@@ -3,6 +3,8 @@ public class Operadores {
     public static void main(String[] args) {
         int numero = 5;
         String concatenacao = "?";
+        String numeroUM = "Talysson";
+        String NumeroDois = "Talysson";
         String nomeCompleto = "LINGUAGEM" + "JAVA";
         //concatenação
         System.out.println(nomeCompleto);
@@ -67,5 +69,7 @@ public class Operadores {
         //operador incremento pré-fixado ++
         System.out.println(++numero);
         //operador incremento pós-fixado --
+        System.out.println(numeroUM.equals(NumeroDois)); //metodo para verificar conteudo
+
     }
 }
