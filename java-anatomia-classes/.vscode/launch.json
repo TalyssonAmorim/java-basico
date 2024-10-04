@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Leitor",
+            "request": "launch",
+            "mainClass": "edu.talysson.segundasemana.Leitor",
+            "projectName": "java-anatomia-classes_da2f8c82"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
