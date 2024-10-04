@@ -1,0 +1,56 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BoletimEstudantil",
+            "request": "launch",
+            "mainClass": "edu.talysson.primeirasemana.BoletimEstudantil",
+            "projectName": "java-anatomia-classes_da2f8c82"
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "edu.talysson.primeirasemana.MinhaClasse",
+            "projectName": "java-anatomia-classes_da2f8c82"
+        },
+        {
+            "type": "java",
+            "name": "Operadores",
+            "request": "launch",
+            "mainClass": "edu.talysson.primeirasemana.Operadores",
+            "projectName": "java-anatomia-classes_da2f8c82"
+        },
+        {
+            "type": "java",
+            "name": "TiposVariaveis",
+            "request": "launch",
+            "mainClass": "edu.talysson.primeirasemana.TiposVariaveis",
+            "projectName": "java-anatomia-classes_da2f8c82"
+        },
+        {
+            "type": "java",
+            "name": "Terminal",
+            "request": "launch",
+            "mainClass": "edu.talysson.segundasemana.Terminal",
+            "projectName": "java-anatomia-classes_da2f8c82"
+        },
+        {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "edu.talysson.segundasemana.Usuario",
+            "projectName": "java-anatomia-classes_da2f8c82"
+        }
+    ]
+}
