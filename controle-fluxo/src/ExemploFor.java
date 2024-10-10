@@ -1,8 +1,13 @@
 public class ExemploFor {
     public static void main(String[] args) {
-        for (int carneirinhos = 1; carneirinhos <= 20; carneirinhos++){
-            System.out.println("Contando carneirinhos " + carneirinhos);
+        String alunos [] = {"JOÃO", "PAULO", "PEDRO", "MIGUEL"};
+
+        for (int x = 0; x < alunos.length ; x++){
+            System.out.println("O aluno no indice x= " + x + " é " + alunos[x]);
         }
-        System.out.println("Joãozinho dormiu");
+        //variavel de escopo
+        for (String aluno: alunos){
+            System.out.println("O aluno é " + aluno);
+        }
     }
 }
